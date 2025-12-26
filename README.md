@@ -32,7 +32,8 @@ The analysis answers common business questions such as:
 
 ---
 ##📘 Analysis Levels
-🔹 Basic SQL — Business Overview
+
+🔹 **Basic SQL — Business Overview**
 
 Goal: Understand sales performance at a high level
 
@@ -41,7 +42,7 @@ Business Questions Answered:
 -Top customers and best-selling products
 -Order volume and average order value
 
-🔹 Intermediate SQL — Business Insights
+🔹 **Intermediate SQL — Business Insights**
 
 Goal: Explain why performance looks the way it does
 
@@ -51,7 +52,7 @@ Business Questions Answered:
 -High-value customers and regions
 -Order cancellation impact
 
-🔹 Advanced SQL — Decision Support
+🔹 **Advanced SQL — Decision Support**
 
 Goal: Support strategic decisions
 
@@ -61,10 +62,11 @@ Business Questions Answered:
 -Top products per region
 -Consistently recurring customers
 -Sales momentum using running totals
-
+---
 ##🎯 Outcome
 
 This case study demonstrates the ability to:
 -Think like a business analyst
 -Convert business questions into SQL logic
 -Use SQL as a decision-support tool
+---
