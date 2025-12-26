@@ -28,3 +28,25 @@ The project demonstrates the ability to:
 - Advanced analytical thinking using SQL
 
 ---
+📘 Query Levels
+🔹 Basic SQL
+
+Focus: Understanding the dataset and answering straightforward business questions
+Concepts:
+SELECT, WHERE, GROUP BY, ORDER BY, HAVING, LIMIT
+
+🔹 Intermediate SQL
+
+Focus: Translating business rules into SQL logic
+Concepts:
+Subqueries, conditional filters, percentage contribution, customer behavior analysis
+
+🔹 Advanced SQL
+
+Focus: Deriving deeper business insights from data
+Concepts:
+Window functions (RANK, LAG), time-series analysis, correlated subqueries, multi-level aggregation
+
+🎯 Objective
+
+Derive meaningful business insights from sales data using SQL.
