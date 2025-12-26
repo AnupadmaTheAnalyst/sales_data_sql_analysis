@@ -1,18 +1,21 @@
 # SQL Data – Sales Analysis
 
-## 📌 Project Overview 
-The focus is on solving **business-oriented questions** through SQL, progressing from basic to advanced concepts.
+## 📌 Business Context
+This project simulates a **real-world sales analytics case study**.  
+The objective is to support **business decision-making** by analyzing historical sales data using SQL.
 
-The project demonstrates the ability to:
-- Understand business requirements
-- Translate them into SQL logic
-- Extract meaningful insights from structured data
+The analysis answers common business questions such as:
+- Which products and customers drive the most revenue?
+- How do sales trends change over time?
+- Which customers show repeat and growing purchase behavior?
+- Which product lines and deal sizes perform best?
 
 ---
 
 ## 📂 Dataset
 - **Dataset Name:** `sales_data_sample.csv`
 - **Type:** Sales transaction data
+- **Description:** Transaction-level sales data for a company selling multiple product lines across different regions and deal sizes.
 - **Key Columns:**  
   `ORDERNUMBER`, `ORDERDATE`, `YEAR_ID`, `MONTH_ID`,  
   `CUSTOMERNAME`, `PRODUCTLINE`, `PRODUCTCODE`,  
@@ -20,33 +23,48 @@ The project demonstrates the ability to:
 
 ---
 
-## 🧠 Skills Demonstrated
-- Data aggregation and filtering
-- Business metric calculation
-- Customer and product performance analysis
-- Time-based trend analysis
-- Advanced analytical thinking using SQL
+## 🧠 Business Objectives
+- Measure overall and yearly revenue performance
+- Identify top-performing products, customers, and regions
+- Analyze customer buying behavior and repeat purchases
+- Track sales trends and growth over time
+- Support data-driven decisions using SQL insights
 
 ---
-📘 Query Levels
-🔹 Basic SQL
+##📘 Analysis Levels
+🔹 Basic SQL — Business Overview
 
-Focus: Understanding the dataset and answering straightforward business questions
-Concepts:
-SELECT, WHERE, GROUP BY, ORDER BY, HAVING, LIMIT
+Goal: Understand sales performance at a high level
 
-🔹 Intermediate SQL
+Business Questions Answered:
+-Total sales by year, product line, and region
+-Top customers and best-selling products
+-Order volume and average order value
 
-Focus: Translating business rules into SQL logic
-Concepts:
-Subqueries, conditional filters, percentage contribution, customer behavior analysis
+🔹 Intermediate SQL — Business Insights
 
-🔹 Advanced SQL
+Goal: Explain why performance looks the way it does
 
-Focus: Deriving deeper business insights from data
-Concepts:
-Window functions (RANK, LAG), time-series analysis, correlated subqueries, multi-level aggregation
+Business Questions Answered:
+-Revenue contribution by product line
+-Customer repeat behavior across months
+-High-value customers and regions
+-Order cancellation impact
 
-🎯 Objective
+🔹 Advanced SQL — Decision Support
 
-Derive meaningful business insights from sales data using SQL.
+Goal: Support strategic decisions
+
+Business Questions Answered:
+-Year-over-year customer growth
+-Monthly sales growth trends
+-Top products per region
+-Consistently recurring customers
+-Sales momentum using running totals
+
+##🎯 Outcome
+
+This case study demonstrates the ability to:
+-Think like a business analyst
+-Convert business questions into SQL logic
+-Use SQL as a decision-support tool
