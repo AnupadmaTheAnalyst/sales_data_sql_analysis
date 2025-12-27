@@ -34,6 +34,24 @@ This project uses SQL to answer practical business questions related to sales pe
 - **Dataset:** Sales transaction data (CSV format)
 
 ---
+## 🚀 How to Run This Project
+
+1. **Import the CSV file** (`sales_data_sample.csv`) into your SQL database (MySQL, SQLite, etc.).
+2. Create a table named `sales_dataset`.
+3. Open your SQL client (DBeaver, MySQL Workbench, etc.).
+4. Execute the SQL files in this order:
+   - `sales_performance_analysis.sql`
+   - `customer_behavior_analysis.sql`
+   - `operations_and_risk_analysis.sql`
+5. Review the query results to see insights for each business question.
+---
+| Business Question                            | SQL File                           | Output                   |
+| -------------------------------------------- | ---------------------------------- | ------------------------ |
+| What are revenue trends by year & month?     | `sales_performance_analysis.sql`   | Seasonal patterns        |
+| Which product lines contribute most revenue? | `sales_performance_analysis.sql`   | Product prioritization   |
+| Who are high-value customers?                | `customer_behavior_analysis.sql`   | Segment targeting        |
+| What are key operational risks?              | `operations_and_risk_analysis.sql` | Risk & efficiency checks |
+---
 
 ## 🔍 Key Insights
 - Large deal sizes contribute disproportionately to total revenue.
@@ -42,10 +60,26 @@ This project uses SQL to answer practical business questions related to sales pe
 - Some product lines perform strongly only within specific deal size categories.
 
 ---
+## 📌 Expected Business Actions
+
+- Increase inventory ahead of high-revenue months.
+- Target marketing to high-value customer segments.
+- Investigate regions with high cancellation risk.
+- Squeeze more revenue from smaller deal sizes with targeted promotions.
+---
 
 ## 💼 Business Impact
 - Helps sales leadership identify high-value customers and top-performing regions.
 - Supports pricing strategy and deal-size optimization decisions.
 - Assists operations teams in identifying and reducing order cancellations.
 - Enables data-driven quarterly and annual sales planning.
+
+---
+## 🧠 Challenges & Learnings
+
+- Handling NULL values and ensuring accurate aggregations.
+- Understanding how window functions improve trend analysis.
+- Translating business questions into robust SQL logic.
+
+
 
