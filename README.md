@@ -1,3 +1,4 @@
+# Sales Performance & Customer Behavior Analysis
 ## 📌 Business Context
 The company operates in a global sales environment with multiple product lines, deal sizes, and customer segments.
 Management wants to analyze historical sales data to understand revenue patterns, customer behavior, and operational efficiency in order to support better business decisions.
